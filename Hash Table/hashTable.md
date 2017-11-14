@@ -4,15 +4,23 @@ Time Complexity:
 look-up: O(1)
 insertion: O(1)
 
-# Description:
+# Description
 A hash table provides constant time O(1) run time for look-up & insertion.
 Simply put, a hash table is an array with a hash function.
 
-# Implementation:
+# Implementation
 A hash table needs to have the following methods / properties:
-- One
-- Two
-- Three
+- insert(key, value)
+- get(key)
+- delete(key)
+
+# Collisions
+Collisions are typically handled by one of two basic methods -- chaining and open addressing.
+
+## Chaining
+
+## Open Addressing
+
 
 # JS Built In:
 JavaScript has a built-in Map() function, which is fundamentally a hash table.
